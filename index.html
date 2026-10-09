@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <!-- style css -->
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <div class="container-main container grid">
+    <div class="purple-bg-decorative"></div>
+    <div class="chat-illustration">
+      <header class="primary-header flex">
+        <div class="left-side-container flex">
+          <button class="arrow-left-btn">
+            &lt;
+
+            <span class="sr-only">go back button </span>
+          </button>
+          <div class="header-image-container">
+            <img src="./images/avatar.jpg" alt="the owner's avatar">
+          </div>
+          <div>
+            <h1 class="title">Samuel Green</h1>
+            <p class="short-description">Available to Walk</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <button class="more-option">
+            <span>&vellip;</span>
+          </button>
+        </div>
+      </header>
+      <main class="content flex">
+        <div class="client-messages">
+          <p>That sounds great. I’d be happy with that.</p>
+          <p>Could you send over some pictures of your dog, please?</p>
+        </div>
+        <div class="owner-messages">
+          <div class="image-container flex">
+            <img src="./images/dog-image-1.jpg" alt="a cute dog " class="dog-image">
+            <img src="./images/dog-image-2.jpg" alt=" a cute dog ready to run" class="dog-image">
+            <img src="./images/dog-image-3.jpg" alt=" a cute dog liying down" class="dog-image">
+          </div>
+          <p>Here are a few pictures. She’s a happy girl!</p>
+          <p>Can you make it?</p>
+        </div>
+        <div class="client-messages">
+          <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+
+        </div>
+        <div class="pricing-container grid">
+          <div class="wrapper">
+            <div class="flex">
+              <input type="radio" name="radio-btn">
+              <p >
+                <span class="description">30 minute walk</span>
+              </p>
+            </div>
+            <p class="price">$29</p>
+          </div>
+          <div class="wrapper">
+            <div class="flex">
+              <input type="radio" name="radio-btn">
+              <p >
+                <span class="decription">1 hour walk</span>
+              </p>
+            </div>
+            <p class="price">$49</p>
+          </div>
+        </div>
+        <div class="input-wrapper flex">
+          
+            <textarea  name = "chat-message-input" 
+                id="chatMessage"
+                placeholder="Type a message…">
+              </textarea>
+            
+          <button role="send-button" aria-controls="chatMessage" class="send-btn">
+            &gt
+          </button>
+        </div>
+      </main>
+    </div>
+    <footer class="page-footer container">
+      <div class="decorative-left-side"></div>
+      <h2>Simple booking</h2>
+      <p class="long-description">
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.
+      </p>
+     <div class="curve-right-background"></div>
+    </footer>
+
+  </div>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://wa.me/+243971556657">josh balyathire</a>.
+  </footer>
+</body>
+</html>
