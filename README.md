@@ -66,6 +66,6 @@ this is where he showed me how having space in the textearea element could make 
 
 ## Author
 
-- Website - [chat illustration](https://www.your-site.com)
+- Website - (https://josaphat-balyathire.github.io/mobile-chat-illustrastion/)
 - Frontend Mentor - [josaphat balyathire](https://www.frontendmentor.io/profile/yourusername)
 
