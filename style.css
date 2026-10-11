@@ -23,6 +23,8 @@
         box-sizing: border-box;
         padding: 0;
         margin: 0;
+
+        /* outline: 1px solid ; */
     }
     html {
         scrollbar-gutter: stable;
@@ -104,7 +106,14 @@ utilities
 
  }
 
+ /* style main  */
+
  @layer components {
+    .home {
+        @media (min-width: 45em) {
+            padding: 2rem;
+        }
+    }
      
      .container-main {
          grid-template-columns: 1fr;
@@ -112,35 +121,40 @@ utilities
          justify-content: center;
          position: relative;
          z-index: 1;
-
+         border-radius: 1rem;
+         box-shadow: 0 0 4px 8px hsl( from var(--gray-color-100) h s l / .9);
+        overflow-x: hidden;
          @media (min-width: 45em) {
             grid-template-columns: auto auto;
-            --gap: 2rem;
+            /* --gap: 1rem; */
+            padding: 3rem;
          }
          
          
         }
         .purple-bg-decorative {
             width: 380px;
-            height: 180vh;
+            height: 100vh;
             border-radius:0 0 50%  50% ;
             background: linear-gradient( to top,var(--purple-color-800), var(--pink-color-500));
             margin-top: 2rem;
             position: absolute;
             left: -40%;
-            bottom: 50%;
+            
+            top: -20%;
 
             @media (min-width: 35em) {
                 left: -10%;
             }
 
             @media (min-width: 45em) {
-                bottom: 0%;
                 left: -16%;
-
+                
+                
             }
             @media (min-width: 55em) {
                 left: -19%;
+                height: 150vh;
             }
         }
         
@@ -154,7 +168,12 @@ utilities
              max-inline-size: 320px;
              margin-inline: auto;
             position: relative;
+            
             z-index: 2;
+
+            @media (min-width: 45em) {
+                left: 1rem;
+            }
     
     }
      
@@ -337,6 +356,11 @@ utilities
                 color: var(--white-color);
                 font-weight: bold;
             }
+
+            .description {
+                text-wrap: nowrap;
+                
+            }
         }
 
         .input-wrapper {
@@ -353,7 +377,9 @@ utilities
                 display: inline-grid;
                 border: none;
                 border-radius: 100vh;
-                
+                resize: none;
+                font: inherit;
+                padding: .2rem;
                 
                 &:focus {
                     outline: none;
@@ -403,7 +429,7 @@ utilities
 
         .decorative-left-side {
             width: 380px;
-            height: 130vh;
+            height: 100vh;
             border-radius: 50% 50% 0 0;
             background-color: hsl( from var(--pink-color-500) h s l / .1);
             position: absolute;
@@ -417,13 +443,13 @@ utilities
                 opacity: 1;
             }
             @media (min-width: 45em) {
-                bottom: -240%;
-                /* top: 0.01%; */
-                left: 34%;
+                bottom: -200%;
+                /* height: 110vh; */
+                left: 30%;
             }
 
             @media (min-width: 55em){
-                left: 80%;
+                left: 60%;
             }
         }
     }

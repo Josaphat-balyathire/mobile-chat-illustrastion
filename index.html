@@ -15,7 +15,7 @@
     
   </style>
 </head>
-<body>
+<body class="home">
 
   <div class="container-main container grid">
     <div class="purple-bg-decorative"></div>
@@ -62,29 +62,26 @@
         <div class="pricing-container grid">
           <div class="wrapper">
             <div class="flex">
-              <input type="radio" name="radio-btn">
-              <p >
+              <input type="radio" name="radio-btn"id="radio1">
+              <label for="radio1" >
                 <span class="description">30 minute walk</span>
-              </p>
+              </label>
             </div>
             <p class="price">$29</p>
           </div>
           <div class="wrapper">
             <div class="flex">
-              <input type="radio" name="radio-btn">
-              <p >
+              <input type="radio" name="radio-btn" id="radio2">
+              <label for="radio2">
                 <span class="decription">1 hour walk</span>
-              </p>
+              </label>
             </div>
             <p class="price">$49</p>
           </div>
         </div>
         <div class="input-wrapper flex">
           
-            <textarea  name = "chat-message-input" 
-                id="chatMessage"
-                placeholder="Type a message…">
-              </textarea>
+            <textarea  name = "chat-message-input" id="chatMessage" placeholder="Type a message…"rows="1"></textarea>
             
           <button role="send-button" aria-controls="chatMessage" class="send-btn">
             &gt
