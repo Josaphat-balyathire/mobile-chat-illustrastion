@@ -21,7 +21,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 
 ### Screenshot
 
-![](c:\Users\Josaphat\Pictures\Screenshots\Capture d'écran 2026-10-11 183416.png)
+![]c:\Users\Josaphat\Pictures\Screenshots\Capture d'écran 2026-10-11 183416.png
 
 
 
