@@ -21,12 +21,12 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](c:\Users\Josaphat\Pictures\Screenshots\Capture d'écran 2026-10-11 183416.png)
 
 
 
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://josaphat-balyathire.github.io/mobile-chat-illustrastion/)
 
 ## My process
 
@@ -42,7 +42,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 ### What I learned
 
 
-while building this i actually have not learnd much but i have used what i already know to complte this challenge . 
+while building this i actually have not learned, much but i have used what i already know to complte this challenge . 
 so i'm sure that this was still usefull for sharpening my styling skill cause i had to make some decision based on the design system.
 
 

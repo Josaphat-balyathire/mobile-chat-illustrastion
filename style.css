@@ -226,9 +226,10 @@ utilities
         
     }
     .title {
-        font-size: clamp(1rem, 3vh, 3rem);
+        font-size: clamp(1.4rem, 2.8vh, 3rem);
         opacity: .9;
         color: var(--gray-color-100);
+        text-wrap: nowrap;
     }
     .short-description {
         color: hsl( from var(--white-color) h s l/ .9);
